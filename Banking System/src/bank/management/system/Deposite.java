@@ -7,11 +7,11 @@ import java.awt.event.ActionListener;
 import java.util.Date;
 
 public class Deposite extends JFrame implements ActionListener {
-    String pin;                      //pin recive//
+    String pin;                      //pin recieve//
     TextField t1;
     JButton b1,b2;
-    Deposite(String pin){            //pin recive//
-        this.pin = pin;              //pin recive//
+    Deposite(String pin){            //pin recieve//
+        this.pin = pin;              //pin recieve//
 
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icon/atm2.png"));
         Image i2 = i1.getImage().getScaledInstance(1550,830,Image.SCALE_DEFAULT);
@@ -83,6 +83,7 @@ public class Deposite extends JFrame implements ActionListener {
     }
 
     public static void main(String []args){
-        new Deposite("");//"" pass this to recive pin//
+        new Deposite("");//"" pass this to recieve pin//
     }
 }
+
